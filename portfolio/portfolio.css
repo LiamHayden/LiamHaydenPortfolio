@@ -1,0 +1,229 @@
+#main 
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 1.5;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+#nav-bar
+{
+    position: fixed;
+    background-color: #26237A;
+    width: 100vw;
+    padding: 0.5em 0em;
+    text-align: left;
+    opacity: 1;
+}
+
+.nav-square
+{
+    color: white;
+    font-size: 1.8em;
+    padding: 0.5em;
+}
+
+#about-me
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    left: 0%;
+    top: 0%;
+}
+
+/*#test 
+{
+    position: absolute;
+    background-color: purple;
+    width: 25px;
+    height: 25px;
+    top: 20%;
+    animation: "saucer" 3s linear infinite alternate;
+}
+
+@keyframes saucer {
+    0% {left: 0;}
+    100% {left: 97%;}
+}*/
+
+#header 
+{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #3391FF;
+    cursor: pointer;
+    position: static;
+}
+
+/*@keyframes jumpUp {
+    from {padding-top: 0px; position: absolute; }
+    to {padding-top: 200px;}
+}*/
+
+@keyframes colorChange {
+    0% {color: red;}
+    17% {color: orange;}
+    34% {color: yellow;}
+    51% {color: green;}
+    68% {color: blue;}
+    85% {color: purple;}
+}
+
+
+#projects
+{
+    margin: auto;
+    margin-top: 0.8em;
+    width: 60vw;
+    padding-top: 0.5em;
+    top: 0;
+    left: 0;
+    font-size: 1.5em;
+}
+
+.content
+{
+    margin: auto;
+    margin-top: 0.8em;
+}
+
+#flex-container
+{
+    display: flex; 
+    flex-direction: row;
+} 
+
+.project-images .large
+{
+    margin: 1em;
+}
+
+#contact
+{
+    padding-top: 2em;
+}
+
+#top
+{
+    position: relative;
+    height: 50vh;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    top: 0;
+    margin: auto;
+    padding: auto;
+}
+
+.icon
+{
+    width: 3.8em;
+    font-size: 3em;
+}
+
+.icon:hover
+{
+    cursor: pointer;
+}
+
+.hidden-link
+{
+    display: none;
+    left: 0;
+    padding: auto;
+    padding-top: 1em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#github
+{
+    font-size: 3em;
+}
+
+#instagram
+{
+    font-size: 3em;
+}
+
+#twitter
+{
+    font-size: 3em;
+}
+
+#email
+{
+    font-size: 3em;
+}
+
+.fab, .fas
+{
+    color: #3391FF;
+}
+
+#bottom 
+{
+    height: 50vh;
+    background-color: rgb(26, 26, 26);
+    top: 0;
+    left: 0;
+    border-top: 1px #3391FF solid;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: solid 1px #3391FF;
+}
+
+#stand-out, #contact-me
+{
+    font-size: 3em;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#stand-out
+{
+    left: 0;
+    padding: auto;
+    padding-top: 1em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#footer 
+{
+    margin auto;
+}
+
+#copyright
+{
+    text-align: center;
+}
+
+.opacity
+{
+    opacity: 0.5;
+
+}
+
+.opacity:hover
+{
+    opacity: 1;
+}
+
+@media (max-width: 776px) {
+    #projects {
+        width: 95vw;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liam Hayden Web Developer</title>
+        <style>
+            #snake
+                {
+                    animation: example 4s infinite;
+                }
+
+            @keyframes example {
+                from {margin-top: 0px}
+                to {margin-top: 600px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container" style="position:relative;width:96vw;height:90vh;background-color:black;  border: 5px solid orange;">
+            <div id="snake" style="position:absolute;margin:auto;width:5px;height:16px;background-color:rgb(255, 0, 43);"></div>
+        </div>
+            <button type="button" onclick="up(), rotate2()">UP</button>
+            <button id="down" type="button" onclick="down(), rotate2()">DOWN</button>
+            <button type="button" onclick="left(), rotate()">LEFT</button>
+            <button type="button" onclick="right(), rotate()">RIGHT</button>
+
+        <script src="snake.js"></script>
+    </body>
+</html>
