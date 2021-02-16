@@ -203,7 +203,7 @@ a
 
 #footer 
 {
-    margin auto;
+    margin: auto;
 }
 
 #copyright
@@ -225,5 +225,14 @@ a
 @media (max-width: 776px) {
     #projects {
         width: 95vw;
+    }
+}
+
+@media (max-width: 640px) {
+    #projects {
+        width: 85vw;
+    }
+    #github-anchor, #instagram-anchor, #twitter-anchor, #email-anchor {
+        font-size: 0.8em;
     }
 }
